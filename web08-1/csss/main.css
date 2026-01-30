@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: brown;
+}
+#nav{
+    width: 160px;
+    background-color: black;
+    background-image: url(../web08/images/menu.gif);
+    background-repeat: no-repeat;
+    float: left;
+    padding: 200px 20px 50px;
+}
+#nav ul{
+    padding-left: 0;
+}
+
+#nav a{
+    text-align: center;
+    display: block;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    background-color: black;
+    padding: 5px 30px;
+    margin: 10px 0;
+}
+
+#nav a:hover{
+    color: red;
+    border: 1px solid red;
+}
+#top{
+    height: 48px;
+    background-image: url(../web08/images/top.gif);
+    background-repeat:no-repeat;
+    background-position:220px 0;
+
+}
+
+#main{
+    margin:0 10px 0 210px;
+    background-color: white;
+    padding: 10px;
+    min-height: 95vh;
+}
+
