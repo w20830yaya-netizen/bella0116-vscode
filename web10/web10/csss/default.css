@@ -21,3 +21,18 @@
 #main{
     background-image:url(../images/03.png);
 }
+
+.myPhoto{
+    position: relative;
+    width: 210px;
+}
+
+.Watermark{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.myPhoto p {
+    text-align: center;
+}
