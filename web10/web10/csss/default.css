@@ -1,0 +1,23 @@
+#container{
+    width: 800px;
+    margin: auto;
+}
+
+#header{
+    background-image: url(../images/01.png);
+    height: 235px;
+}
+
+#menuButton{
+    height: 45px;
+    background-image: url(../images/02.png);
+}
+
+#footer{
+    background-image: url(../images/04.png);
+    height: 61px;
+}
+
+#main{
+    background-image:url(../images/03.png);
+}
