@@ -20,11 +20,14 @@
 
 #main{
     background-image:url(../images/03.png);
+    padding: 0 70px;
 }
 
 .myPhoto{
     position: relative;
     width: 210px;
+    float: left;
+    margin: 0 5px;
 }
 
 .Watermark{
@@ -35,4 +38,8 @@
 
 .myPhoto p {
     text-align: center;
+}
+
+#mainB{
+    clear: both;
 }
