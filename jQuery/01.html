@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>我是h1</h1>
+    <p>我是段落</p>
+    账号:<input type="text" name="" id="username">
+    <button id="send">送出</button>
+    <button id="show">显示</button><br>
+    <ul id="sport"></ul>
+    
+    <script>
+    // window.onload = function(){
+            
+    //     }
+    // $(function(){
+    //         $("#send").click(function(){
+    //             $("h1").text("我是新的h1");
+    //             $("p").html("<b>我是新的段落</b>");
+    //         });
+    
+$(function(){
+    $("#send").click(function(){
+                $("h1").css("color", "red");
+                $(this).css('color', 'blue').css('border', '2px solid blue');
+                // alert($(h1).css("font-size"));
+                $('p').hide();
+                // $('h1').text("我是新的h1");
+                $('h1').html("<i>我是新的h1</i>");
+                // alert($("#username").val());
+                // $('#sport').append('<li>篮球</li>');})
+            $('#sport').append('<li>' + $("#username").val() + '</li>');
+    })
+            $("#show").click(function(){
+                $('p').show();
+
+                });
+            })
+    </script>
+</body>
+</html>
